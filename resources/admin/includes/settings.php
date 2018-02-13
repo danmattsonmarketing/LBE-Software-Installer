@@ -1,3 +1,12 @@
+
+<h2> Tutorial</h2>
+
+<!-- Insert Video Embed Below-->
+<p><em>Tutorial coming soon...</em></p>
+<!-- <iframe src="https://player.vimeo.com/video/255472910" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+-->
+
+<!-- Insert Video Embed Above-->
 <h2><?php _e("Settings", __CLEAN_SLATE_PLUGIN_SLUG__);?></h2>
 
 <form name="actionForm" id="actionForm" method="post" action="">
@@ -60,7 +69,7 @@
                                 }
 ?>
                             <input
-                                type="text" 
+                                type="text"
                                 name="<?php echo $hidden["name"];?>"
                                 id="<?php echo $hidden["name"];?>"
                                 placeholder="<?php echo (!empty($hidden["placeholder"]) ? $hidden["placeholder"] : "");?>"
