@@ -1,10 +1,9 @@
 
-<h2> Tutorial</h2>
+<h2>Tutorial</h2>
 
 <!-- Insert Video Embed Below-->
-<p><em>Tutorial coming soon...</em></p>
-<!-- <iframe src="https://player.vimeo.com/video/255472910" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
--->
+<iframe src="https://player.vimeo.com/video/255502149" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 <!-- Insert Video Embed Above-->
 <h2><?php _e("Settings", __CLEAN_SLATE_PLUGIN_SLUG__);?></h2>
