@@ -3,7 +3,7 @@
 * Plugin Name: LBE Software Installer
 * Plugin URI: http://www.marketingwithdan.com
 * Description: Install LBE-Approved Plugins
-* Version: 1.2.5
+* Version: 1.2.6
 * Author: Dan Mattson
 * Author URI: http://www.marketingwithdan.com
 * License: GPL2
@@ -216,6 +216,13 @@ class CleanSlate{
                                 "label"     => __("Yoast SEO", __CLEAN_SLATE_PLUGIN_SLUG__),
                                 "type"      => "checkbox",
                                 "zip"       => array("https://downloads.wordpress.org/plugin/wordpress-seo.6.1.1.zip"),
+                                "action"    => "install_plugin"
+            ),
+            "plugin_noindexnofollow"
+                            => array(
+                                "label"     => __("Easy NoIndex NoFollow (NEW)", __CLEAN_SLATE_PLUGIN_SLUG__),
+                                "type"      => "checkbox",
+                                "zip"       => array("https://downloads.wordpress.org/plugin/easy-noindex-and-nofollow.1.2.zip"),
                                 "action"    => "install_plugin"
             ),
             "plugin_gabyyoast"
