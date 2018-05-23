@@ -3,7 +3,7 @@
 * Plugin Name: LBE Software Installer
 * Plugin URI: http://www.marketingwithdan.com
 * Description: Install LBE-Approved Plugins
-* Version: 1.2.8
+* Version: 1.2.9
 * Author: Dan Mattson
 * Author URI: http://www.marketingwithdan.com
 * License: GPL2
@@ -265,6 +265,13 @@ class CleanSlate{
                                 "label"      => __("InstaBuilder (NOTE: Activate License BEFORE Updating)", __CLEAN_SLATE_PLUGIN_SLUG__),
                                 "type"      => "checkbox",
                                 "zip"       => array("https://www.dropbox.com/s/spcra1j5r9iv62s/instabuilder2-lic.zip?dl=1"),
+                                "action"    => "install_plugin"
+            ),
+            "plugin_wordwrap"
+                            => array(
+                                "label"      => __("WordWrap Fixer - This will fix the hyphenating word wrap issue on InstaBuilder pages", __CLEAN_SLATE_PLUGIN_SLUG__),
+                                "type"      => "checkbox",
+                                "zip"       => array("http://lbehost.com/lbe/wordwrap.zip"),
                                 "action"    => "install_plugin"
             ),
             "plugin_instamember"
