@@ -3,7 +3,7 @@
 * Plugin Name: LBE Software Installer
 * Plugin URI: http://www.marketingwithdan.com
 * Description: Install LBE-Approved Plugins
-* Version: 1.2.9
+* Version: 1.3.0
 * Author: Dan Mattson
 * Author URI: http://www.marketingwithdan.com
 * License: GPL2
@@ -300,6 +300,13 @@ class CleanSlate{
                                 "label"      => __("NEW - Thrive Optimize (Must Install Thrive Architect Too)", __CLEAN_SLATE_PLUGIN_SLUG__),
                                 "type"      => "checkbox",
                                 "zip"       => array("http://lbehost.com/lbe/thrive-optimize.zip"),
+                                "action"    => "install_plugin"
+            ),
+            "plugin_wpgdpr"
+                            => array(
+                                "label"      => __("NEW - WP GDPR", __CLEAN_SLATE_PLUGIN_SLUG__),
+                                "type"      => "checkbox",
+                                "zip"       => array("http://lbehost.com/lbe/wpgdprPro_r4duTI.zip"),
                                 "action"    => "install_plugin"
             ),
             "plugin_custom" => array(
