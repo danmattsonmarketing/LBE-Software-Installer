@@ -3,7 +3,7 @@
 * Plugin Name: LBE Software Installer
 * Plugin URI: http://www.marketingwithdan.com
 * Description: Install LBE-Approved Plugins
-* Version: 1.3.0
+* Version: 1.3.1
 * Author: Dan Mattson
 * Author URI: http://www.marketingwithdan.com
 * License: GPL2
@@ -246,20 +246,20 @@ class CleanSlate{
                                 "zip"       => array("https://downloads.wordpress.org/plugin/updraftplus.1.14.2.zip"),
                                 "action"    => "install_plugin"
             ),
-            "plugin_generatepress"
-                            => array(
-                                "label"     => __("GeneratePress License Plugin (Required for GeneratePress Theme)", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/gp-premium-156.zip"),
-                                "action"    => "install_plugin"
-            ),
-            "plugin_thrive"
-                            => array(
-                                "label"     => __("Thrive Architect (NOTE: Activate License BEFORE Updating)", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/thrive-architect-211.zip"),
-                                "action"    => "install_plugin"
-            ),
+            // "plugin_generatepress"
+            //                 => array(
+            //                     "label"     => __("GeneratePress License Plugin (Required for GeneratePress Theme)", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/gp-premium-156.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
+            // "plugin_thrive"
+            //                 => array(
+            //                     "label"     => __("Thrive Architect (NOTE: Activate License BEFORE Updating)", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/thrive-architect-211.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
             "plugin_instabuilder"
                             => array(
                                 "label"      => __("InstaBuilder (NOTE: Activate License BEFORE Updating)", __CLEAN_SLATE_PLUGIN_SLUG__),
@@ -267,13 +267,13 @@ class CleanSlate{
                                 "zip"       => array("https://www.dropbox.com/s/spcra1j5r9iv62s/instabuilder2-lic.zip?dl=1"),
                                 "action"    => "install_plugin"
             ),
-            "plugin_wordwrap"
-                            => array(
-                                "label"      => __("WordWrap Fixer - This will fix the hyphenating word wrap issue on InstaBuilder pages", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/wordwrap.zip"),
-                                "action"    => "install_plugin"
-            ),
+            // "plugin_wordwrap"
+            //                 => array(
+            //                     "label"      => __("WordWrap Fixer - This will fix the hyphenating word wrap issue on InstaBuilder pages", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/wordwrap.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
             "plugin_instamember"
                             => array(
                                 "label"      => __("InstaMember (NOTE: Activate License BEFORE Updating)", __CLEAN_SLATE_PLUGIN_SLUG__),
@@ -288,27 +288,27 @@ class CleanSlate{
                                 "zip"       => array("https://downloads.wordpress.org/plugin/wp-mail-smtp.zip"),
                                 "action"    => "install_plugin"
             ),
-            "plugin_thriveleads"
-                            => array(
-                                "label"      => __("NEW - ThriveLeads", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/thrive-leads.zip"),
-                                "action"    => "install_plugin"
-            ),
-            "plugin_thriveoptimize"
-                            => array(
-                                "label"      => __("NEW - Thrive Optimize (Must Install Thrive Architect Too)", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/thrive-optimize.zip"),
-                                "action"    => "install_plugin"
-            ),
-            "plugin_wpgdpr"
-                            => array(
-                                "label"      => __("NEW - WP GDPR", __CLEAN_SLATE_PLUGIN_SLUG__),
-                                "type"      => "checkbox",
-                                "zip"       => array("http://lbehost.com/lbe/wpgdprPro_r4duTI.zip"),
-                                "action"    => "install_plugin"
-            ),
+            // "plugin_thriveleads"
+            //                 => array(
+            //                     "label"      => __("NEW - ThriveLeads", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/thrive-leads.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
+            // "plugin_thriveoptimize"
+            //                 => array(
+            //                     "label"      => __("NEW - Thrive Optimize (Must Install Thrive Architect Too)", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/thrive-optimize.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
+            // "plugin_wpgdpr"
+            //                 => array(
+            //                     "label"      => __("NEW - WP GDPR", __CLEAN_SLATE_PLUGIN_SLUG__),
+            //                     "type"      => "checkbox",
+            //                     "zip"       => array("http://lbehost.com/lbe/wpgdprPro_r4duTI.zip"),
+            //                     "action"    => "install_plugin"
+            // ),
             "plugin_custom" => array(
                                 "label"     => __("Install Custom Plugins", __CLEAN_SLATE_PLUGIN_SLUG__),
                                 "type"      => "checkbox",
